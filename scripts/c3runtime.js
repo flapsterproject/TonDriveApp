@@ -1560,7 +1560,7 @@ self.C3_ExpressionFuncs = [
 		() => "minor_oil",
 		() => "vovias4x4_oil",
 		() => "karal_oil",
-		() => -10,
+		() => 10,
 		() => 3,
 		() => "No car to repair",
 		() => "1500 DR",
@@ -1625,7 +1625,6 @@ self.C3_ExpressionFuncs = [
 			const n0 = p._GetNode(0);
 			return () => ((n0.ExpInstVar() * 120) + 65);
 		},
-		() => 10,
 		() => -1,
 		p => {
 			const n0 = p._GetNode(0);
@@ -1759,6 +1758,7 @@ self.C3_ExpressionFuncs = [
 			const v0 = p._GetNode(0).GetVar();
 			return () => (v0.GetValue() - 55.55);
 		},
+		() => -10,
 		() => 53,
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
