@@ -1454,7 +1454,7 @@ self.C3_ExpressionFuncs = [
 		() => 19999,
 		p => {
 			const v0 = p._GetNode(0).GetVar();
-			return () => (v0.GetValue() + 18.52);
+			return () => (v0.GetValue() + 180.52);
 		},
 		p => {
 			const v0 = p._GetNode(0).GetVar();
@@ -1468,7 +1468,7 @@ self.C3_ExpressionFuncs = [
 		() => 36999,
 		p => {
 			const v0 = p._GetNode(0).GetVar();
-			return () => (v0.GetValue() + 34.26);
+			return () => (v0.GetValue() + 340.26);
 		},
 		() => "soldon",
 		() => "36999 DR",
@@ -1479,7 +1479,7 @@ self.C3_ExpressionFuncs = [
 		},
 		p => {
 			const v0 = p._GetNode(0).GetVar();
-			return () => (v0.GetValue() + 1851.85);
+			return () => (v0.GetValue() + 18510.85);
 		},
 		() => "sprut",
 		() => "1999999 DR",
@@ -1490,7 +1490,7 @@ self.C3_ExpressionFuncs = [
 		},
 		p => {
 			const v0 = p._GetNode(0).GetVar();
-			return () => (v0.GetValue() + 0.46);
+			return () => (v0.GetValue() + 100);
 		},
 		() => "minor",
 		() => "500 DR",
@@ -1501,14 +1501,14 @@ self.C3_ExpressionFuncs = [
 		},
 		p => {
 			const v0 = p._GetNode(0).GetVar();
-			return () => (v0.GetValue() + 291.66);
+			return () => (v0.GetValue() + 2910.66);
 		},
 		() => "vovias4x4",
 		() => "209999 DR",
 		() => 599999,
 		p => {
 			const v0 = p._GetNode(0).GetVar();
-			return () => (v0.GetValue() + 55.55);
+			return () => (v0.GetValue() + 5500.55);
 		},
 		() => "karal",
 		() => "599999 DR",
@@ -1576,12 +1576,36 @@ self.C3_ExpressionFuncs = [
 		() => 259200,
 		() => "sto_timer",
 		() => "have_sto",
+		p => {
+			const v0 = p._GetNode(0).GetVar();
+			return () => (v0.GetValue() + 18.52);
+		},
 		() => "minifor_health",
 		() => "soldon_health",
+		p => {
+			const v0 = p._GetNode(0).GetVar();
+			return () => (v0.GetValue() + 34.26);
+		},
 		() => "sprut_health",
+		p => {
+			const v0 = p._GetNode(0).GetVar();
+			return () => (v0.GetValue() + 1851.85);
+		},
 		() => "minor_health",
+		p => {
+			const v0 = p._GetNode(0).GetVar();
+			return () => (v0.GetValue() + 0.46);
+		},
 		() => "vovias4x4_health",
+		p => {
+			const v0 = p._GetNode(0).GetVar();
+			return () => (v0.GetValue() + 291.66);
+		},
 		() => "karal_health",
+		p => {
+			const v0 = p._GetNode(0).GetVar();
+			return () => (v0.GetValue() + 55.55);
+		},
 		() => 18000,
 		() => "Spawn",
 		p => {
@@ -1685,7 +1709,6 @@ self.C3_ExpressionFuncs = [
 			const n0 = p._GetNode(0);
 			return () => ((n0.ExpInstVar() / 4) * 3);
 		},
-		() => 20,
 		p => {
 			const v0 = p._GetNode(0).GetVar();
 			return () => and(v0.GetValue(), " DR/h");
@@ -1720,7 +1743,7 @@ self.C3_ExpressionFuncs = [
 		() => 25,
 		p => {
 			const v0 = p._GetNode(0).GetVar();
-			return () => (v0.GetValue() - 18.52);
+			return () => (v0.GetValue() - 180.52);
 		},
 		p => {
 			const v0 = p._GetNode(0).GetVar();
@@ -1728,7 +1751,7 @@ self.C3_ExpressionFuncs = [
 		},
 		p => {
 			const v0 = p._GetNode(0).GetVar();
-			return () => (v0.GetValue() - 34.26);
+			return () => (v0.GetValue() - 340.26);
 		},
 		p => {
 			const v0 = p._GetNode(0).GetVar();
@@ -1736,7 +1759,7 @@ self.C3_ExpressionFuncs = [
 		},
 		p => {
 			const v0 = p._GetNode(0).GetVar();
-			return () => (v0.GetValue() - 1851.85);
+			return () => (v0.GetValue() - 18510.85);
 		},
 		p => {
 			const v0 = p._GetNode(0).GetVar();
@@ -1744,7 +1767,7 @@ self.C3_ExpressionFuncs = [
 		},
 		p => {
 			const v0 = p._GetNode(0).GetVar();
-			return () => (v0.GetValue() - 0.46);
+			return () => (v0.GetValue() - 100);
 		},
 		p => {
 			const v0 = p._GetNode(0).GetVar();
@@ -1752,11 +1775,11 @@ self.C3_ExpressionFuncs = [
 		},
 		p => {
 			const v0 = p._GetNode(0).GetVar();
-			return () => (v0.GetValue() - 291.66);
+			return () => (v0.GetValue() - 2910.66);
 		},
 		p => {
 			const v0 = p._GetNode(0).GetVar();
-			return () => (v0.GetValue() - 55.55);
+			return () => (v0.GetValue() - 5500.55);
 		},
 		() => -10,
 		() => 53,
