@@ -1607,6 +1607,7 @@ self.C3_ExpressionFuncs = [
 			return () => (v0.GetValue() + 55.55);
 		},
 		() => 18000,
+		() => 4,
 		() => "Spawn",
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
@@ -1681,7 +1682,7 @@ self.C3_ExpressionFuncs = [
 		},
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
-			return () => f0(2);
+			return () => f0(3);
 		},
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
@@ -1779,7 +1780,7 @@ self.C3_ExpressionFuncs = [
 		},
 		p => {
 			const v0 = p._GetNode(0).GetVar();
-			return () => (v0.GetValue() - 5500.55);
+			return () => (v0.GetValue() - 55.55);
 		},
 		() => -10,
 		() => 53,
